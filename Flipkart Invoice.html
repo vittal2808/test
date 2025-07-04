@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flipkart Invoice</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+    .invoice-container {
+      max-width: 800px;
+      margin: auto;
+      background-color: #fff;
+      padding: 20px;
+      border: 1px solid #ddd;
+    }
+    h2 {
+      text-align: center;
+      color: #2874f0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+    td, th {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+      font-size: 14px;
+    }
+    th {
+      background-color: #f1f1f1;
+    }
+    .right-align {
+      text-align: right;
+    }
+    .total-row {
+      font-weight: bold;
+      background-color: #fafafa;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="invoice-container">
+    <h2>Flipkart Invoice</h2>
+
+    <table>
+      <tr>
+        <td colspan="2"><strong>Invoice No:</strong> FK123456</td>
+        <td colspan="2"><strong>Date:</strong> 18/06/2025</td>
+      </tr>
+      <tr>
+        <td colspan="4"><strong>Customer Name:</strong> Ravi Kumar</td>
+      </tr>
+      <tr>
+        <th>Item</th>
+        <th>Quantity</th>
+        <th>Unit Price</th>
+        <th>Total</th>
+      </tr>
+      <tr>
+        <td>Smartphone</td>
+        <td>1</td>
+        <td>₹15,000</td>
+        <td>₹15,000</td>
+      </tr>
+      <tr>
+        <td>Wireless Earbuds</td>
+        <td>1</td>
+        <td>₹2,000</td>
+        <td>₹2,000</td>
+      </tr>
+      <tr>
+        <td>Laptop Bag</td>
+        <td>1</td>
+        <td>₹1,200</td>
+        <td>₹1,200</td>
+      </tr>
+      <tr>
+        <td>Bluetooth Speaker</td>
+        <td>1</td>
+        <td>₹1,500</td>
+        <td>₹1,500</td>
+      </tr>
+      <tr>
+        <td>Smart Watch</td>
+        <td>1</td>
+        <td>₹3,000</td>
+        <td>₹3,000</td>
+      </tr>
+      <tr>
+        <td>USB Cable</td>
+        <td>2</td>
+        <td>₹150</td>
+        <td>₹300</td>
+      </tr>
+      <tr>
+        <td>Phone Case</td>
+        <td>1</td>
+        <td>₹500</td>
+        <td>₹500</td>
+      </tr>
+      <tr class="total-row">
+        <td colspan="3" class="right-align">Subtotal</td>
+        <td>₹23,500</td>
+      </tr>
+      <tr class="total-row">
+        <td colspan="3" class="right-align">GST (5%)</td>
+        <td>₹1,175</td>
+      </tr>
+      <tr class="total-row">
+        <td colspan="3" class="right-align">Total Amount</td>
+        <td>₹24,675</td>
+      </tr>
+    </table>
+  </div>
+
+</body>
+</html>
